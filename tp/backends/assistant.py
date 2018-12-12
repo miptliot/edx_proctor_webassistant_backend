@@ -35,7 +35,7 @@ log = logging.getLogger(__name__)
 
 User = get_user_model()
 
-class NPOEDBackendProvider(ProctoringBackendProvider):
+class TPBackendProvider(ProctoringBackendProvider):
     """
     Implementation of the ProctoringBackendProvider for Proctor webassistant's
     RPNow product
